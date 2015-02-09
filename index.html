@@ -4,11 +4,91 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Seres Lu</title>
+		
+		<style>
+		/*
+		 * define a class called "interiorColor"
+		 * give it two properties: color of text and border around the text
+		 * and we know it is a class because it starts with a dot
+		 * 
+		 */
+			.SalmonBox{
+				color:#000000;
+				border:2px solid salmon;
+				font-style: italic;	
+				text-align: center;
+			}	
+			
+			.GrayBox{
+				color:salmon;
+				border:2px solid #000000;
+				font-style: italic;	
+				text-align: center;
+			}	
+			
+			
+			
+			
+		</style>
+		
+		
+		
 	</head>
 	<body>
 		<h1>Programming Assignment 1</h1>
 		<!-- adding a secondary header -->
-		<h2>hope it works this time...</h2>
+		<h2>assignment header</h2>
+		
+		<!-- make a div with a red text inside it -->
+		
+		<div class="SalmonBox">programming continued</div>
+		
+		<div class="GrayBox">programming continued</div>
+		
+		<script>
+			/*
+			 * define some variables: there are only 5 - numbers, strings, arrays, boolean, objects
+			 */
+			var myNumber = 25;
+			var myString = "here's a string!";
+			var myBoo = true;
+			var myArray = [2,4,5,6,7];
+			
+			
+			var myObject = {Key1:"value1",
+							Key2:"value2"};
+							
+				
+			/*
+			 * var can be anything, so for example, numbers, which I have called "myNumber" which is a dataset of numbers, is usually something more specific - like age, or price --
+			 * something that is more descriptive of the data I have put inside
+			 * numbers will only ever be numbers
+			 * strings will only ever be text
+			 * boolean will only even be true or false
+			 * array and objects has more flexibiliy and can contain a lot of other different things
+			 */
+			
+	
+			console.log(myNumber);
+	
+			
+			console.log(myArray[0]);   /* if i want to count, the first value is actually 0, the second item is 1 */
+			
+			console.log (myString = "anything");
+			console.log(myObject.Key1);
+			
+			console.log(myObject);
+			myObject.Key1 = "newValue" /*replace value1 with newValue*/
+			console.log(myObject);
+			
+			
+			
+	
+			
+		
+			
+			
+		</script>
 	</body>
 </html>
 
